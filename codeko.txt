@@ -1,0 +1,46 @@
+php artisan make:migration create_categories_table
+
+php artisan make:controller --resource --model=Product
+
+php artisan make:request StoreProductRequest
+
+php artisan make:request UpdateProductRequest
+
+php artisan make:controller  CategoryController --resource --model=Category
+
+php artisan make:request StoreCategoryRequest
+
+php artisan make:request UpdateCategoryRequest
+
+php artisan make:controller PosController
+
+php artisan make:migration crate_sales_table
+
+php artisan make:migration crate_sales_items_table
+
+php artisan migrate
+
+php artisan db:show
+
+php artisan make:model Sale
+
+php artisan make:controller CheckoutController
+
+php artisan optimize:clear
+npm run build
+next target
+
+google ai essentials
+google cybersecurity
+google project management
+google advanced data analytics
+
+
+4wzp1y5d2b.dns.controld.com
+
+
+
+tasklist | grep -i node
+taskkill //IM node.exe //F
+
+
